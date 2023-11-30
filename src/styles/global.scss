@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	background: #161515 !important;
+}
+
+/* Hide the scrollbar track */
+::-webkit-scrollbar {
+	width: 0;
+}
+
+/* Hide the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
+
+/* Hide the scrollbar track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
